@@ -1,1 +1,3 @@
 .vscode/
+wordtrie.egg-info/
+dist/

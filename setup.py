@@ -4,7 +4,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="wordtrie",
+    name="wordtriepy",
     version="0.0.1",
     author="Christian Vorhemus",
     author_email="",
@@ -20,8 +20,8 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    packages=["wordtrie"],
-    package_dir={"wordtrie": "wordtrie"},
-    package_data={"wordtrie": ["assets/*"]},
+    packages=["wordtriepy"],
+    package_dir={"wordtriepy": "wordtriepy"},
+    package_data={"wordtriepy": ["assets/*"]},
     python_requires=">=3.5",
 )
