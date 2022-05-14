@@ -1,6 +1,6 @@
 ## WordTriePy
 
-This is a small Python package that implements a trie filled with words from several languages (English - en, German - de , French - fr, Spanish - es, Portuguese - pt) implemented as nested dictionaries. It was created in need for a personal project and published to eventually help others.
+This is a small Python package that implements a trie filled with words from several languages (English - en, German - de , French - fr, Spanish - es, Portuguese - pt) implemented as nested dictionaries.
 
 ## Install
 
