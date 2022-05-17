@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="wordtriepy",
-    version="0.0.1",
+    version="0.0.2",
     author="Christian Vorhemus",
     author_email="",
     description="A trie filled with words from several languages (English - en, German - de , French - fr, Spanish - es, Portuguese - pt)",

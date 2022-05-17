@@ -1,3 +1,5 @@
 .vscode/
 wordtrie.egg-info/
+wordtriepy.egg-info/
 dist/
+Howto.txt

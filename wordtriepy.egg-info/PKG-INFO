@@ -1,13 +1,11 @@
 Metadata-Version: 2.1
 Name: wordtriepy
-Version: 0.0.1
+Version: 0.0.2
 Summary: A trie filled with words from several languages (English - en, German - de , French - fr, Spanish - es, Portuguese - pt)
 Home-page: https://github.com/christian-vorhemus/wordtrie
 Author: Christian Vorhemus
 Author-email: 
-License: UNKNOWN
 Project-URL: Bug Tracker, https://github.com/christian-vorhemus/wordtrie/issues
-Platform: UNKNOWN
 Classifier: Programming Language :: Python :: 3
 Classifier: License :: OSI Approved :: MIT License
 Classifier: Operating System :: OS Independent
@@ -48,4 +46,3 @@ print(t.get_next_words("salz", topn=5))
 ```
 
 This returns the top 5 words after a breadth-first-search in the German word trie.
-
