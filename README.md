@@ -18,7 +18,7 @@ print(t.get_next_chars("chair"))
 # outputs: ['_end', 'b', 'e', '-', 'i', 'l', 'm', 'p', 's', 'w']
 ```
 
-The `_end` token tells us that "chair" itself is a valid word and there are 4 other characters ('b', 'e', '-', 'i', 'l', 'm', 'p', 's', 'w') that could follow the word "chair" in the English language that could form new valid words.
+The `_end` token tells us that "chair" itself is a valid word and there are 9 other characters ('b', 'e', '-', 'i', 'l', 'm', 'p', 's', 'w') that could follow the word "chair" in the English language that could form new valid words.
 
 To get a list of words that can be formed by the partial word "salz" in the German language, use the `get_next_words()` method:
 
